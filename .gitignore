@@ -1,0 +1,49 @@
+# --- Large Data Folders (Requested) ---
+activations/
+artifacts/
+
+# --- Python & Environments ---
+.venv/
+env/
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+*.egg
+
+# --- ML Models & Large Data ---
+data/
+results/
+probes/
+vectors/
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.onnx
+*.joblib
+*.pkl
+*.h5
+
+# --- Hugging Face ---
+.cache/
+hub/
+datasets/
+
+# --- Environment & Secrets ---
+.env
+.env.*
+
+# --- Jupyter Notebooks ---
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# --- Operating System ---
+.DS_Store
+.DS_Store?
+._*
